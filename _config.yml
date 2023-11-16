@@ -1,0 +1,71 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole site, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing these this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+# @NOTE @aharito это уже моё
+posts_dir: /docs
+
+title: Блог на Эво 3
+description: Как создать крутой блог на Evo CMS за полчаса (тут работы на полчаса).
+baseurl: "/evo-newdocs" # repo folder
+theme: just-the-docs
+
+url: https://aharito.github.io
+repository: aharito/evo-newdocs # for github-metadata
+
+# permalink: pretty
+
+exclude:
+ # from https://github.com/jekyll/jekyll/blob/master/lib/site_template/_config.yml:
+   - docs/v1/
+
+aux_links: false
+
+# External navigation links
+nav_external_links: false
+
+# Back to top link
+back_to_top: true
+back_to_top_text: "↑ Back to top"
+
+footer_content: "Copyright &copy; <a href=\"https://t.me/remote_adm\">Андрей Казунин</a>, адаптация для Jekyll &copy; <a href=\"https://t.me/aharito\">Андрей Харитонов</a>"
+
+# Footer "Edit this page on GitHub" link text
+gh_edit_link: true # show or hide edit this page link
+gh_edit_link_text: "Edit this page on GitHub"
+gh_edit_repository: "https://github.com/aharito/evo-newdocs" # the github URL for your repo
+gh_edit_branch: "main" # the branch that your docs is served from
+# gh_edit_source: docs # the source that your files originate from
+gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
+
+# Color scheme currently only supports "dark", "light"/nil (default), or a custom scheme that you define
+color_scheme: nil
+
+callouts_level: quiet # or loud
+callouts:
+  highlight:
+    color: yellow
+  important:
+    title: Important
+    color: blue
+  new:
+    title: New
+    color: green
+  note:
+    title: Note
+    color: purple
+  warning:
+    title: Warning
+    color: red
