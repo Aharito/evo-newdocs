@@ -56,7 +56,8 @@
         {
           "title": "layout",
           "name": "layout",
-          "type": "string"
+          "type": "string",
+          "default": "default"
         },
         {
           "title": "nav_order",
