@@ -24,6 +24,11 @@
           "isPublishDate": true
         },
         {
+          "title": "parent",
+          "name": "parent",
+          "type": "string"
+        },
+        {
           "title": "has_children",
           "name": "has_children",
           "type": "boolean"

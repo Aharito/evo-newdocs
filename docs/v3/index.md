@@ -1,12 +1,12 @@
 ---
-title: Начало работы
+title: Документация по Evolution CMS v3
 has_children: true
-permalink: nachalo-raboty
-slug: nachalo-raboty
-lastmod: 2023-11-16T17:13:08.915Z
+permalink: dokumentaciya-po-evolution-cms-v3
+slug: dokumentaciya-po-evolution-cms-v3
+lastmod: 2023-11-16T17:27:49.355Z
 ---
 
-# Начало работы с Evolution CMS v3
+# Документация по Evolution CMS v3
 {: .no_toc }
 
 1. TOC
