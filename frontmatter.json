@@ -1,4 +1,5 @@
 {
+  /* Конфигурация под тему JTD Just To Docs for Jekyll */
   "$schema": "https://frontmatter.codes/frontmatter.schema.json",
   "frontMatter.taxonomy.contentTypes": [
     {
@@ -24,6 +25,12 @@
           "isPublishDate": true
         },
         {
+          "title": "layout",
+          "name": "layout",
+          "type": "string",
+          "default": "default"
+        },
+        {
           "title": "parent",
           "name": "parent",
           "type": "string"
@@ -39,11 +46,6 @@
           "type": "draft"
         },
         {
-          "title": "Content preview",
-          "name": "preview",
-          "type": "image"
-        },
-        {
           "title": "Tags",
           "name": "tags",
           "type": "tags"
@@ -52,12 +54,6 @@
           "title": "Categories",
           "name": "categories",
           "type": "categories"
-        },
-        {
-          "title": "layout",
-          "name": "layout",
-          "type": "string",
-          "default": "default"
         },
         {
           "title": "nav_order",
@@ -69,6 +65,11 @@
           "name": "permalink",
           "type": "string",
           "default": "{{permalink}}"
+        },
+        {
+          "title": "Content preview",
+          "name": "preview",
+          "type": "image"
         },
         {
           "title": "lastmod",
