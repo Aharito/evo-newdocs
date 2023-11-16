@@ -1,8 +1,7 @@
 ---
-permalink: /
-lastmod: 2023-11-16T13:03:42.450Z
+lastmod: 2023-11-16T17:20:55.810Z
 title: Документация Evolution CMS
-description: Новые доки по Эво 3
+description: Новые доки по Эво версий 1.4 и 3
 ---
 # Документация Evolution CMS
 
