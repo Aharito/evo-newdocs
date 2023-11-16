@@ -24,14 +24,19 @@
           "isPublishDate": true
         },
         {
-          "title": "Content preview",
-          "name": "preview",
-          "type": "image"
+          "title": "has_children",
+          "name": "has_children",
+          "type": "boolean"
         },
         {
           "title": "Is in draft",
           "name": "draft",
           "type": "draft"
+        },
+        {
+          "title": "Content preview",
+          "name": "preview",
+          "type": "image"
         },
         {
           "title": "Tags",
@@ -81,7 +86,7 @@
     },
     {
       "title": "v1 exclude",
-      "path": "[[workspace]]/v1",
+      "path": "[[workspace]]/docs/v1",
       "excludeSubdir": true
     }
   ],
