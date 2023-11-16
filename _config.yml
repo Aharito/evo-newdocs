@@ -17,8 +17,8 @@
 # @NOTE @aharito это уже моё
 posts_dir: /docs
 
-title: Блог на Эво 3
-description: Как создать крутой блог на Evo CMS за полчаса (тут работы на полчаса).
+title: Доки на Эво 3
+description: Документация к Evolution CMS 3-й версии
 baseurl: "/evo-newdocs" # repo folder
 theme: just-the-docs
 
@@ -27,9 +27,9 @@ repository: aharito/evo-newdocs # for github-metadata
 
 # permalink: pretty
 
-exclude:
+#exclude:
  # from https://github.com/jekyll/jekyll/blob/master/lib/site_template/_config.yml:
-   - docs/v1/
+   #- docs/v1/
 
 aux_links: false
 
