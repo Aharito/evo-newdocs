@@ -7,6 +7,11 @@
       "previewPath": null,
       "fields": [
         {
+          "title": "Is in draft",
+          "name": "draft",
+          "type": "draft"
+        },
+        {
           "title": "Title",
           "name": "title",
           "type": "string"
@@ -40,15 +45,11 @@
           "type": "boolean"
         },
         {
-          "title": "grandparent",
-          "name": "grandparent",
+          "title": "grand_parent",
+          "name": "grand_parent",
           "type": "string"
-        },        
-        {
-          "title": "Is in draft",
-          "name": "draft",
-          "type": "draft"
-        },
+        },       
+
         {
           "title": "Tags",
           "name": "tags",
