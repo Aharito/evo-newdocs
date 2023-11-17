@@ -20,7 +20,7 @@ posts_dir: /docs
 title: Доки на Эво 3
 description: Документация к Evolution CMS 3-й версии
 #baseurl: "/evo-newdocs" # repo folder
-baseurl: "" # repo folder
+baseurl: "/" # repo folder
 theme: just-the-docs
 
 url: https://aharito.github.io
