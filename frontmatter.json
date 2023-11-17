@@ -1,5 +1,4 @@
 {
-  /* Конфигурация под тему JTD Just To Docs for Jekyll */
   "$schema": "https://frontmatter.codes/frontmatter.schema.json",
   "frontMatter.taxonomy.contentTypes": [
     {
@@ -40,6 +39,11 @@
           "name": "has_children",
           "type": "boolean"
         },
+        {
+          "title": "grandparent",
+          "name": "grandparent",
+          "type": "string"
+        },        
         {
           "title": "Is in draft",
           "name": "draft",
