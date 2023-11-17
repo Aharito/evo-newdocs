@@ -3,9 +3,8 @@ layout: default
 title: Начало работы
 parent: Evolution CMS v3
 has_children: true
-permalink: nachalo-raboty
 slug: nachalo-raboty
-lastmod: 2023-11-16T18:25:21.070Z
+lastmod: 2023-11-17T04:40:15.763Z
 ---
 
 # Начало работы с Evolution CMS v3
