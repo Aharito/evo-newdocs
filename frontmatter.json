@@ -29,6 +29,11 @@
           "isPublishDate": true
         },
         {
+          "title": "lastmod",
+          "name": "lastmod",
+          "type": "datetime"
+        },
+        {
           "title": "layout",
           "name": "layout",
           "type": "string",
@@ -75,11 +80,6 @@
           "title": "Content preview",
           "name": "preview",
           "type": "image"
-        },
-        {
-          "title": "lastmod",
-          "name": "lastmod",
-          "type": "datetime"
         }
       ]
     }
